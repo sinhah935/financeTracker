@@ -6,12 +6,12 @@ export default function Navbar(){
             <h1>Bank United</h1>
             <div className="links">
                 <a href="/">Home</a>
-                <a href="/account">View My Account</a>
+                <a href="/account">Dashboard</a>
                 <a href="/login" style={{
-                    color: 'white',
-                    backgroundColor: '#f1356d',
+                    color: '#f1356d',
+                    backgroundColor: 'white',
                     borderRadius: '8px'
-                }}>Sign In</a>
+                }}>Sign Up</a>
             </div>
         </nav>
     );

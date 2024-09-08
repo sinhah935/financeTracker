@@ -10,15 +10,16 @@
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 600px;
+  background: #f1356d;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
 }
 .navbar h1 {
-  color: #f1356d;
+  color: white;
 }
 .navbar .links {
   margin-left: auto;
+  font-size: 22px;
 }
 .navbar a {
   margin-left: 16px;
@@ -26,7 +27,7 @@
   padding: 6px;
 }
 .navbar a:hover {
-  color: #f1356d;
+  color: white;
 }
 .content {
   max-width: 600px;
